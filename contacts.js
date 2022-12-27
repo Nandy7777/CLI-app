@@ -19,14 +19,15 @@ async function listContacts() {
     return db;
 }
 
-function getContactById(contactId) {
-  // ...твій код
+async function getContactById(contactId) {
+    const db = await readDb();
+    const updatedDb = db.find((contact) => contact.id === String(contactId));
+    await writeDb(updatedDb);
 }
 
 async function removeContact(contactId) {
     const db = await readDb();
-    const updatedDb = db.filter((contact) => contact.id === contactId);
-
+    const updatedDb = db.filter((contact) => contact.id !== String(contactId));
     await writeDb(updatedDb);
 }
 
