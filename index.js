@@ -20,7 +20,5 @@ async function invokeAction({ action, id, name, email, phone }) {
           console.warn('\x1B[31m Unknown action type!');
   }
 }
-// invokeAction({ action: 'remove', id: '10'});
-// invokeAction({ action: 'add', name: 'some name', email: 'some email', phone: 'some phone' + new Date () });
+
 invokeAction(argv);
-// invokeAction({ action: 'list' });
