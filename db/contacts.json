@@ -12,12 +12,6 @@
     "phone": "(294) 840-6685"
   },
   {
-    "id": "3",
-    "name": "Kennedy Lane",
-    "email": "mattis.Cras@nonenimMauris.net",
-    "phone": "(542) 451-7038"
-  },
-  {
     "id": "4",
     "name": "Wylie Pope",
     "email": "est@utquamvel.net",
@@ -60,15 +54,15 @@
     "phone": "(748) 206-2688"
   },
   {
-    "id": "rcdW6RfcatQcwzZoctZQ8",
-    "name": "some name",
-    "email": "some email",
-    "phone": "some phoneTue Dec 27 2022 12:13:14 GMT+0200 (за східноєвропейським стандартним часом)"
-  },
-  {
-    "id": "R-c0jzPiwaRKkWbP4ax9d",
+    "id": "nwX-4JWDuU0rJ82yWehiU",
     "name": "Mango",
     "email": "mango@gmail.com",
-    "phone": "322-22-22"
+    "phone": "322-22-22~"
+  },
+  {
+    "id": "w6lcTzJpu26sI2rkhn7He",
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22~"
   }
 ]

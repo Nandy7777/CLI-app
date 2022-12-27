@@ -23,11 +23,13 @@ async function getContactById(contactId) {
     const db = await readDb();
     const updatedDb = db.find((contact) => contact.id === String(contactId));
     await writeDb(updatedDb);
+    console.log(updatedDb);
 }
 
 async function removeContact(contactId) {
     const db = await readDb();
     const updatedDb = db.filter((contact) => contact.id !== String(contactId));
+    console.log(updatedDb);
     await writeDb(updatedDb);
 }
 
@@ -36,7 +38,7 @@ async function addContact(name, email, phone) {
     const newContact = { id, name, email, phone };
     const db = await readDb();
     db.push(newContact);
-    
+    console.log(newContact);
     await writeDb(db);
 }
 
